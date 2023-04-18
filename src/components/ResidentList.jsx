@@ -32,9 +32,7 @@ const ResidentList = ({ location }) => {
   }, [location])
   
 
-  
 
-//max-w-[1000px] mx-auto
   return (
 
     <>

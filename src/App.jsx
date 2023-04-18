@@ -4,7 +4,7 @@ import { getRandomDimension } from "./helpers/random";
 import axios from "axios";
 import { useState } from "react";
 import Location from "./components/Location";
-import ResidentList from "./components/residentList";
+import ResidentList from "./components/ResidentList";
 
 function App() {
   const [location, setLocation] = useState();
@@ -31,7 +31,6 @@ function App() {
   }, []);
   
 
-//bg-[url('/images/bg.png')] bg-cover 
   return (
     <div className="App place-content-center min-h-screen px-2 bg-[url('/images/bg.png')] bg-cover ">
       <article className=' bottom-10 item-center relative content-center bg-[url("../public/images/bg-h.png")] bg-cover'>
